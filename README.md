@@ -5,4 +5,4 @@ mile4b; % gaussian fitting
 mile5a; % manual alignment
 mile5b; % removing non-paired points
 mile5c; % automatic alignment using optimization
-mile6; % plotting
+mile6plotColor12sep; % plotting
