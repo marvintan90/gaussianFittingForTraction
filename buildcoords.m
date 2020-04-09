@@ -1,0 +1,1 @@
+function [xr,yr]=buildcoords(x,y,img)    s=4;    xr=[x-s:x+s];    yr=[y-s:y+s];end

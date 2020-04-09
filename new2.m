@@ -1,0 +1,1 @@
+imgOut = combPeaks2( 82 , 80 )

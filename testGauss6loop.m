@@ -1,0 +1,1 @@
+coordsc = coords_df_10x_disk;Im_cell = Im_df_10x_disk ;for n=1:size(coordsc,1)      xc = coordsc(n,1);      yc = coordsc(n,2);      [xr,yr]=buildcoords(xc,yc,Im_cell);      z=Im_cell(yr,xr);  % row=y, column=x      figure;            surf(z);        %    view(2);endfor           

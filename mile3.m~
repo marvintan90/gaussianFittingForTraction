@@ -1,0 +1,20 @@
+clear all;
+pkg load all;
+graphics_toolkit("gnuplot");
+
+
+Im_df_10x_disk = double( imread('ref.tif') );
+  figure;
+      imagesc(Im_df_10x_disk); % colorbar;
+      view(2);
+figure;
+      imagesc(Im_df_10x_disk); colorbar;
+      view(2);
+
+Im_df2_10x_disk = double( imread('cell.tif') );
+  figure;
+      imagesc(Im_df2_10x_disk); % colorbar;
+      view(2);
+figure;
+      imagesc(Im_df2_10x_disk); colorbar;
+      view(2);
